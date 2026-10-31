@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ludzie Kultury | Discord</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: radial-gradient(circle at top, #1a0000, #000);
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* HEADER */
+      header {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        padding: 45px;
+        background: linear-gradient(
+          135deg,
+          rgba(255, 0, 0, 0.15),
+          rgba(0, 0, 0, 0.9)
+        );
+        border-bottom: 2px solid crimson;
+      }
+
+      header img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 4px solid crimson;
+        box-shadow: 0 0 30px crimson;
+        object-fit: cover;
+      }
+
+      header h1 {
+        font-family: "Orbitron", sans-serif;
+        font-size: 2.8rem;
+        color: crimson;
+        text-shadow: 0 0 15px crimson;
+      }
+
+      header p {
+        color: #ddd;
+        margin-top: 6px;
+      }
+
+      .join-btn {
+        display: inline-block;
+        margin-top: 18px;
+        padding: 14px 35px;
+        background: crimson;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+        box-shadow: 0 0 20px crimson;
+        transition: 0.3s;
+      }
+
+      .join-btn:hover {
+        background: #ff1e1e;
+        box-shadow: 0 0 35px #ff1e1e;
+      }
+
+      /* MAIN */
+      main {
+        max-width: 1200px;
+        margin: auto;
+        padding: 50px 30px;
+      }
+
+      .section-title {
+        font-family: "Orbitron", sans-serif;
+        font-size: 2rem;
+        margin-bottom: 30px;
+        color: crimson;
+        text-shadow: 0 0 10px crimson;
+      }
+
+      /* MEMBERS */
+      .members {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 25px;
+      }
+
+      .member-card {
+        background: linear-gradient(160deg, #120000, #000);
+        border-radius: 16px;
+        padding: 25px;
+        border: 1px solid #330000;
+        text-align: center;
+        transition: 0.35s;
+      }
+
+      .member-card:hover {
+        transform: translateY(-8px) scale(1.03);
+        box-shadow: 0 0 35px crimson;
+      }
+
+      .avatar {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: 3px solid crimson;
+        box-shadow: 0 0 15px crimson;
+        margin-bottom: 15px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 25px;
+        font-size: 0.8rem;
+        color: #777;
+        border-top: 1px solid #330000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- NOWE PROFILOWE -->
+      <img src="zdjecia/sukuna.jpg" alt="Ludzie Kultury" />
+      <div>
+        <h1>Ludzie Kultury</h1>
+        <p>Anime • Chaos • Discord</p>
+        <!-- PRZEJŚCIE NA OSOBNĄ STRONĘ -->
+        <a href="discord.html" class="join-btn">Dołącz do Discorda</a>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="section-title">Najważniejsi członkowie</h2>
+
+      <div class="members">
+        <div class="member-card">
+          <img class="avatar" src="zdjecia/kubala.png" />
+          <h3>kubala6002</h3>
+          <span>ID: 689570634849845330</span>
+        </div>
+
+        <div class="member-card">
+          <img class="avatar" src="zdjecia/macio.png" />
+          <h3>Macio</h3>
+          <span>ID: 405097143167221781</span>
+        </div>
+
+        <div class="member-card">
+          <img class="avatar" src="zdjecia/sendi.png" />
+          <h3>Sandra</h3>
+          <span>ID: 1063546726155305061</span>
+        </div>
+
+        <div class="member-card">
+          <img class="avatar" src="zdjecia/denzel.png" />
+          <h3>Denzi</h3>
+          <span>ID: 675056224529809419</span>
+        </div>
+
+        <div class="member-card">
+          <img class="avatar" src="zdjecia/hipeek.png" />
+          <h3>Hipeek</h3>
+          <span>ID: 1031219064967803000</span>
+        </div>
+
+        <div class="member-card">
+          <img class="avatar" src="zdjecia/herman.png" />
+          <h3>Herman</h3>
+          <span>ID: 1451302632860815432</span>
+        </div>
+      </div>
+    </main>
+
+    <footer>© 2026 Ludzie Kultury • Anime Discord Community</footer>
+  </body>
+</html>
